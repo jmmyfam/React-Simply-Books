@@ -17,8 +17,8 @@ export default function ViewAuthor() {
     <div className="mt-5 d-flex flex-wrap">
       <div className="text-blue ms-5 details">
         <h5>
-          By {authorBooks.first_name} {authorBooks.last_name}
-          {authorBooks.favorite ? ' 🤍' : ''}
+          {authorBooks.first_name} {authorBooks.last_name}
+          {authorBooks.favorite ? '⭐' : ''}
         </h5>
         Author Email: <a href={`mailto:${authorBooks.email}`}>{authorBooks.email}</a>
       </div>
